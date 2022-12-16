@@ -1,0 +1,11 @@
+server:
+  port: 8084
+  servlet.context-path: /mproperties
+
+spring:
+  application.name: connection
+  config.import: configserver:http://localhost:8888
+  profiles.active: dev
+
+##URL example:  http://localhost:8888/connection/dev
+##This file loads properties startup (use Config Server properties)
