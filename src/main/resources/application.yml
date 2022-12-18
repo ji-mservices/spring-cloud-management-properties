@@ -7,5 +7,6 @@ spring:
   config.import: configserver:http://localhost:8888
   profiles.active: dev
 
+##URL of exposed properties: http://localhost:8084/mproperties/connection-data
 ##URL example:  http://localhost:8888/connection/dev
 ##This file loads properties startup (use Config Server properties)
